@@ -1,0 +1,9 @@
+ 1.Research Zipcar. How does this company’s business
+model differ from that of traditional car rental companies,
+such as Hertz or Avis?
+
+2.Think of two physical things in your home or office that,
+if they were embedded with sensors and linked to a network, would improve the quality of your work or personal
+life. Describe these two scenarios.
+
+3.What might the privacy concerns be?

@@ -1,0 +1,50 @@
+<ion-app>
+  <ion-header [translucent]="true">
+   <ion-toolbar color="danger">
+   <ion-title color="primary">SurveyApp</ion-title>
+   <ion-buttons slot="start">
+    <ion-back-button defaultHref="#"></ion-back-button>
+  </ion-buttons>
+   </ion-toolbar>
+   </ion-header>
+   <ion-content>
+ 
+    <ion-list>
+      <ion-radio-group value="grape">
+        <ion-list-header>
+          <ion-label><b>2) What is your favourite waifu?</b></ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-label>Eula</ion-label>
+          <ion-radio slot="start" color="danger" value="eula"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Ganyu</ion-label>
+          <ion-radio slot="start" color="danger" value="ganyu"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Mona</ion-label>
+          <ion-radio slot="start" color="danger" value="mona"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Hu tao</ion-label>
+          <ion-radio slot="start" color="danger" value="hutao"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Ei</ion-label>
+          <ion-radio slot="start" color="danger" value="ei"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+
+    </ion-list>
+
+  <ion-alert-controller></ion-alert-controller>
+  <ion-button (click)="CreatePrompt()" expand="block" shape="round" color="danger">Submit</ion-button>
+
+</ion-content>
+</ion-app>

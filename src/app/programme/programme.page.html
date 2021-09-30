@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Character</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-list>
+      <ion-list-header>
+        <b>List of Character</b>
+      </ion-list-header>
+
+      <ion-item [routerLink]="['/electro']">
+        <ion-avatar slot="start">
+          <img src="assets/baal.jpg" width="50%">
+        </ion-avatar>
+        <ion-label>
+          <h2>Ei</h2>
+          <h3>Archon Electro</h3>
+          <p>The one and only</p>
+        </ion-label>
+      </ion-item>
+
+      <ion-item [routerLink]="['/anemo']">
+        <ion-avatar slot="start">
+          <img src="assets/venti.png" width="50%">
+        </ion-avatar>
+        <ion-label>
+          <h2>Venti</h2>
+          <h3>Archon Anemo</h3>
+          <p>Always Drunk</p>
+        </ion-label>
+      </ion-item>
+
+      <ion-item [routerLink]="['/geo']">
+        <ion-avatar slot="start">
+          <img src="assets/zhongli.png" width="50%">
+        </ion-avatar>
+        <ion-label>
+          <h2>Zhongli</h2>
+          <h3>Archon Geo</h3>
+          <p>The Husbando and Hot</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+  </ion-content>
+

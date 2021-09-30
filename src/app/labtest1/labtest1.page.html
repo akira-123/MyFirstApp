@@ -1,0 +1,47 @@
+<ion-app>
+ <ion-header [translucent]="true">
+  <ion-toolbar color="danger">
+  <ion-title color="primary">SurveyApp</ion-title>
+  </ion-toolbar>
+  </ion-header>
+  <ion-content>
+
+  <ion-list>
+  <ion-item>
+    <b>1) What is your favourite vision?(can choose more than 1)</b>
+  </ion-item>
+
+  <ion-item>
+  <ion-checkbox color="warning" slot="start"></ion-checkbox>
+  <ion-label>Anemo</ion-label>
+  </ion-item>
+
+  <ion-item>
+  <ion-checkbox color="warning" checked slot="start"></ion-checkbox>
+  <ion-label>Pyro</ion-label>
+  </ion-item>
+
+  <ion-item>
+  <ion-checkbox color="warning" slot="start"></ion-checkbox>
+  <ion-label>Electro</ion-label>
+  </ion-item>
+
+  <ion-item>
+  <ion-checkbox color="warning" checked slot="start"></ion-checkbox>
+  <ion-label>Cryo</ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-checkbox color="warning" checked slot="start"></ion-checkbox>
+    <ion-label>Geo</ion-label>
+    </ion-item>
+  
+      <ion-button (click)="btnclicked()" expand="block" shape="round" color="danger" routerLink="/page2">
+        Next
+      </ion-button>
+
+ </ion-list>
+ </ion-content>
+ </ion-app>
+
+  

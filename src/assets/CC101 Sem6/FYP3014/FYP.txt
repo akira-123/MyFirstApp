@@ -1,0 +1,12 @@
+FYP3014
+Assessments
+-Proposal + Progress Report (20%)
+-Presentation (50%)
+-Report (30%)
+6/8- kene hantar tajuk
+20/8- submit Project Proposal
+week14 1/11- Presentation dan Submit Final Report
+Category
+A- System Development/Mobile Apps(with database)
+B- Multimedia Project(Interactive KIOSK/Games/Courseware)
+c- Mobile Apps (without Database)
