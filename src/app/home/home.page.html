@@ -1,22 +1,15 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Berita
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Berita</ion-title>
+      <ion-title>Berita</ion-title>
     </ion-toolbar>
   </ion-header>
 
  <div id="container">
-   <ion-card>
+   <ion-card class="test">
    <ion-card-header>
-     <ion-card-title>Aiman Duta Mobile Legends</ion-card-title>
+     <ion-card-title color="light">Aiman Duta Mobile Legends</ion-card-title>
    </ion-card-header>
    <ion-card-content>
      <img src="assets/aiman2.PNG"/>
@@ -24,4 +17,16 @@
    </ion-card-content>
    </ion-card>
  </div>
+ <ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="dashboard">
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Dashboard</ion-label>
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/lab7']"tab="promotion">
+      <ion-icon name="thumbs-up"></ion-icon>
+      <ion-label>Promotion</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
 </ion-content>

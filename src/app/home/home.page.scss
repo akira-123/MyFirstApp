@@ -1,3 +1,12 @@
+ion-content {
+  --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+  url(../../assets/test.jpg) no-repeat center center / cover;
+}
+
+ion-toolbar {
+  --background: taransparent ;
+  --ion-color-base: transparent !important;
+}
 #container {
   text-align: center;
 
@@ -6,6 +15,7 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  
 }
 
 #container strong {
@@ -24,4 +34,8 @@
 
 #container a {
   text-decoration: none;
+}
+
+.test {
+  background: rgba(255,255,255,0.1);
 }
